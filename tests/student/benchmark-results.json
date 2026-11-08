@@ -1,0 +1,244 @@
+{
+  "seed": 20261108,
+  "python": "3.13.5 (v3.13.5:6cb20a219a8, Jun 11 2025, 12:23:45) [Clang 16.0.0 (clang-1600.0.26.6)]",
+  "platform": "macOS-15.3.1-arm64-arm-64bit-Mach-O",
+  "cpu": "Apple M4",
+  "scope": "one direct algorithm call, including result construction; excludes imports, generation, oracle, validation, JSON, process startup",
+  "warmup": "one untimed call per method/case after validation; CPython without JIT flags",
+  "rows": [
+    {
+      "distribution": "random abcd",
+      "n": 600,
+      "m": 60,
+      "matches": 1,
+      "method": "naive",
+      "runs_ms": [
+        0.035459,
+        0.035,
+        0.035334
+      ],
+      "median_ms": 0.035334
+    },
+    {
+      "distribution": "random abcd",
+      "n": 600,
+      "m": 60,
+      "matches": 1,
+      "method": "kmp",
+      "runs_ms": [
+        0.030083,
+        0.029208,
+        0.028708
+      ],
+      "median_ms": 0.029208
+    },
+    {
+      "distribution": "random abcd",
+      "n": 600,
+      "m": 60,
+      "matches": 1,
+      "method": "rk",
+      "runs_ms": [
+        0.057584,
+        0.056959,
+        0.057458
+      ],
+      "median_ms": 0.057458
+    },
+    {
+      "distribution": "random abcd",
+      "n": 1500,
+      "m": 150,
+      "matches": 1,
+      "method": "naive",
+      "runs_ms": [
+        0.085458,
+        0.085333,
+        0.08375
+      ],
+      "median_ms": 0.085333
+    },
+    {
+      "distribution": "random abcd",
+      "n": 1500,
+      "m": 150,
+      "matches": 1,
+      "method": "kmp",
+      "runs_ms": [
+        0.071709,
+        0.069292,
+        0.071875
+      ],
+      "median_ms": 0.071709
+    },
+    {
+      "distribution": "random abcd",
+      "n": 1500,
+      "m": 150,
+      "matches": 1,
+      "method": "rk",
+      "runs_ms": [
+        0.140417,
+        0.138666,
+        0.139417
+      ],
+      "median_ms": 0.139417
+    },
+    {
+      "distribution": "random abcd",
+      "n": 3000,
+      "m": 300,
+      "matches": 1,
+      "method": "naive",
+      "runs_ms": [
+        0.168833,
+        0.170834,
+        0.168583
+      ],
+      "median_ms": 0.168833
+    },
+    {
+      "distribution": "random abcd",
+      "n": 3000,
+      "m": 300,
+      "matches": 1,
+      "method": "kmp",
+      "runs_ms": [
+        0.139375,
+        0.135333,
+        0.141458
+      ],
+      "median_ms": 0.139375
+    },
+    {
+      "distribution": "random abcd",
+      "n": 3000,
+      "m": 300,
+      "matches": 1,
+      "method": "rk",
+      "runs_ms": [
+        0.275833,
+        0.274458,
+        0.277667
+      ],
+      "median_ms": 0.275833
+    },
+    {
+      "distribution": "repetitive a",
+      "n": 600,
+      "m": 60,
+      "matches": 541,
+      "method": "naive",
+      "runs_ms": [
+        0.97,
+        0.953,
+        0.942
+      ],
+      "median_ms": 0.953
+    },
+    {
+      "distribution": "repetitive a",
+      "n": 600,
+      "m": 60,
+      "matches": 541,
+      "method": "kmp",
+      "runs_ms": [
+        0.041833,
+        0.046625,
+        0.040041
+      ],
+      "median_ms": 0.041833
+    },
+    {
+      "distribution": "repetitive a",
+      "n": 600,
+      "m": 60,
+      "matches": 541,
+      "method": "rk",
+      "runs_ms": [
+        1.029208,
+        1.007709,
+        0.999042
+      ],
+      "median_ms": 1.007709
+    },
+    {
+      "distribution": "repetitive a",
+      "n": 1500,
+      "m": 150,
+      "matches": 1351,
+      "method": "naive",
+      "runs_ms": [
+        5.76025,
+        6.219542,
+        5.77275
+      ],
+      "median_ms": 5.77275
+    },
+    {
+      "distribution": "repetitive a",
+      "n": 1500,
+      "m": 150,
+      "matches": 1351,
+      "method": "kmp",
+      "runs_ms": [
+        0.111167,
+        0.102834,
+        0.102917
+      ],
+      "median_ms": 0.102917
+    },
+    {
+      "distribution": "repetitive a",
+      "n": 1500,
+      "m": 150,
+      "matches": 1351,
+      "method": "rk",
+      "runs_ms": [
+        5.812583,
+        5.902292,
+        5.912209
+      ],
+      "median_ms": 5.902292
+    },
+    {
+      "distribution": "repetitive a",
+      "n": 3000,
+      "m": 300,
+      "matches": 2701,
+      "method": "naive",
+      "runs_ms": [
+        23.48375,
+        23.289625,
+        23.0735
+      ],
+      "median_ms": 23.289625
+    },
+    {
+      "distribution": "repetitive a",
+      "n": 3000,
+      "m": 300,
+      "matches": 2701,
+      "method": "kmp",
+      "runs_ms": [
+        0.230209,
+        0.2255,
+        0.220875
+      ],
+      "median_ms": 0.2255
+    },
+    {
+      "distribution": "repetitive a",
+      "n": 3000,
+      "m": 300,
+      "matches": 2701,
+      "method": "rk",
+      "runs_ms": [
+        23.497,
+        25.015084,
+        22.841791
+      ],
+      "median_ms": 23.497
+    }
+  ]
+}
